@@ -17,3 +17,5 @@ Imports:
     fs,
     readr,
     stringr
+URL: https://github.com/christopherkenny/fixr
+BugReports: https://github.com/christopherkenny/fixr/issues
