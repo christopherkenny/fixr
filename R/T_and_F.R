@@ -50,10 +50,12 @@ T_F_patts <- function() {
     '=F\\]', '= F\\]',
     '=F,', '= F,',
     '=F\\}', '= F\\}',
+    '\\(F\\)',
     '=T\\)', '= T\\)',
     '=T\\]', '= T\\]',
     '=T,', '= T,',
     '=T\\}', '= T\\}'
+    '\\(T\\)'
   )
 }
 
@@ -62,9 +64,11 @@ T_F_repls <- function() {
     '= FALSE\\]', '= FALSE\\]',
     '= FALSE,', '= FALSE,',
     '= FALSE\\}', '= FALSE\\}',
+    '\\(FALSE\\),
     '= TRUE\\)', '= TRUE\\)',
     '= TRUE\\]', '= TRUE\\]',
     '= TRUE,', '= TRUE,',
     '= TRUE\\}', '= TRUE\\}'
+    '\\(TRUE\\),
   )
 }
